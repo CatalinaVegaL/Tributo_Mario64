@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 22rem;
+    background:  url(../Referencias/Header1.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.botton_parent {
+    font-size: 2.1rem;
+    display: flex;
+    justify-content: center;
+    padding: 28rem 0rem;
+    font-weight: 800;
+}
+
+.botton {
+    display: inline-block;
+    width: 35rem;
+    height: 7.5rem;
+    color: black;
+    border-radius: 3rem;
+    padding: 2.0rem;
+    margin-right: 100px;
+    box-shadow: 5px 5px rgba(0.1,0.1,0.1,0.1);
+}
+
+#botton_1 {
+    background: linear-gradient(to bottom , #59A1FC, #ffffff76);
+    padding: 0px 0px 0px 100px;
+}
+
+#botton_2 {
+    align-items: center;
+    background: linear-gradient(to bottom , #3DBD00, #ffffff); 
+    padding: 0px 0px 0px 130px;
+}
+
+.botton_parent img {
+    width: 6rem;
+    height: 5.3rem;
+    margin-left: 2rem;
+    margin-top: 0.3rem;
+}
+
+/* General */
+
+.contenedor_general {
+    margin-top: 22rem;
+    text-align: justify;
+    font-size: 2.0rem ;
+}
+
+.contenedor_general > p {
+    padding: 0px 120px;
+    line-height: 1.3;
+}
+
+/* Argumento */
+
+.contenedor_argumento {
+    background: #b7b7b727;
+    text-align: justify;
+    font-size: 2rem ;
+    margin-top: 5rem;
+    padding: 0 0 0.9rem 0;
+}
+
+.contenedor_argumento > h2 {
+    color: black;
+    font-size: 3rem;
+    text-align: left;
+    padding: 3rem 12rem;
+}
+
+.contenido_1 img {
+    border-radius: 3rem;
+    width: 170rem;
+    height: 25rem;
+    float: left;
+    margin-left: 9rem;
+}
+
+.texto_1 {
+    padding: 0rem 12rem 4rem 12rem;
+    line-height: 1.3;
+    display: flex;
+    align-items: center;
+}
+
+/* Modo de Juego */
+
+.contenedor_modojuego {
+    text-align: justify;
+    font-size: 2rem ;
+}
+
+.contenedor_modojuego h2 {
+    color: black;
+    font-size: 3rem;
+    text-align: right;
+    padding: 3rem 12rem;
+}
+
+.texto_2 img {
+    border-radius: 3rem;
+    width: 150rem;
+    height: 25rem;
+    margin-left: 12rem;
+    margin-right: 9rem;
+}
+
+.texto_2 {
+    padding: 0rem 0rem 6rem 0rem;
+    line-height: 1.3;
+    display: flex;
+    align-items: center;
+    margin-right: 12rem;
+}
+
+/* footer */
+
+footer{
+    background: #949494;
+    height: 17vh;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.footer__social{
+    display: flex;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.footer__link img {
+    width: 6rem;
+    height: 6rem;
+    margin-top: 1.3rem;
+    margin-right: 6rem;
+    margin-bottom:1.3rem;
+    display: flex;
+    display: flex;
+    
+}
+
+.footer__copyright{
+    padding-top: 1rem;
+    border-top: 2px solid #918484;
+    text-align: center;
+}
